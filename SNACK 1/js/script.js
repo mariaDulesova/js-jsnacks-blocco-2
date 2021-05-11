@@ -6,7 +6,7 @@
 var bike = [
     {
         name: "bici1",
-        weight: 8.4,
+        weight: 5.4,
     },
     {
         name: "bici2",
