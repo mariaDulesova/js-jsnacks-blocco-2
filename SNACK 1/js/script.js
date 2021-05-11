@@ -18,7 +18,7 @@ var bike = [
     },
     {
         name: "bici4",
-        weight: 4.3,
+        weight: 2.0,
     },
     {
         name: "bici5",
@@ -28,11 +28,11 @@ var bike = [
 ]
 
 
-var bikeLight = bike[0].weight;
+var bikeLight = bike[0];
 
 for (var i=1; i<bike.length; i++){
-    if(!(bikeLight < bike[i].weight)){
-        bikeLight = bike[i].weight;
+    if(!(bikeLight.weight < bike[i].weight)){
+        bikeLight = bike[i];
     }  
 }
 console.log(bikeLight);
